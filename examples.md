@@ -8,9 +8,9 @@
 
 Move around with hjkl (aka, no arrows or mouse).
 
-Move to HML of screen.
+Move to (H)igh, (M)iddle, (L)ow of screen.
 
-Make screen with zt, zz, and zb.
+Move screen with zt, zz, and zb.
 
 Scroll window by line.
 
@@ -34,11 +34,11 @@ Replace from here [.] to the beginning of the line with "foo".
 
 Paste what you deleted before to here.
 
-Go back to the last line that was changed.
-
 Go to the beginning of this file, then the end, then C-o here.
 
-Change to the 42 and change to "foo".
+Go back to the last line that was changed.
+
+Search to the 42 and change to "foo".
 
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eu semper
       mauris. Maecenas enim urna, imperdiet ut accumsan et, tempus sit amet
@@ -57,7 +57,7 @@ Delete to "foo" from here [.] with search.
       nunc.  Aliquam vitae arcu in ( foo ) elit blandit elementum. Ut tempus purus at
       est euismod varius. Phasellus porta nibh at leo convallis hendrerit. Nunc
       commodo tellus a urna ultricies dapibus. Maecenas a quam risus. Fusce ut
-      augue at mi bibendum scelerisque. In ( 42 ) in adipiscing libero.
+      augue at mi bibendum scelerisque. In in adipiscing libero.
 
 Delete between the "foo"s with *.
 
@@ -75,7 +75,7 @@ Set mark 'c' here [.].  The move here [.] and delete back to the mark.
 
 Delete from the point here [.] back to mark 'c'.
 
-Refactor "equivalent" out into bool foo.
+Refactor "equivalent" out into bool foo with %.
 
       if (!entry.used && equivalent(entry.key(), qk.key) && (curcontext & entry.contexts))
 
@@ -135,7 +135,7 @@ Reformat this paragraph
 
 ## visual selection
 
-Change these ints to doubles.
+Change these ints to doubles with visual selection.
 
       int foo;
       int bar;
@@ -145,7 +145,7 @@ Change these ints to doubles.
       int comes;
       int next;
 
-Remove the unnecessary space.
+Remove the unnecessary space, then change "bar" to "foo".
 
       foo[0 ] = "this is not a bar"
       foo[1 ] = "this is not a bar"
@@ -224,13 +224,14 @@ Foo it!
         else:
           print test_string, 'rejected'
 
+
 Make this URL readable.
 
       http://test.ourSite.com/subdivision?foo=bar&bar=foo&up=down&on=off&something=weird&2=1&lat=90&lon=90&start=end&day=night
 
 ## other vi commands/features
 
-Copy lines 1 and 3 down in reverse order
+Copy lines 1 and 3 down in reverse order using multiple clipboards
 
       1. This is the first line.
       2. I am unlike the others.
@@ -331,7 +332,7 @@ Join all children to parents.
       child
       child
 
-Substitute "foo"s for "bar"s only if they're in comments.
+Substitute "foo"s for "BAR"s only if they're in comments.
 
       // does things with foo
       function foo(foo) {
