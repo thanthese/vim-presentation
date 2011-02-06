@@ -333,11 +333,49 @@ Join all children to parents.
 
 Substitute "foo"s for "bar"s only if they're in comments.
 
+      // does things with foo
+      function foo(foo) {
+        // foo this and foo that
+        return foo * foo;
+      }
+
+      // does things with foo2
+      function foo2(foo2) {
+        // foo2 this and foo2 that
+        return foo2 * foo2;
+      }
+
 # interaction with unix tools
-- reverse string
-- reverse lines
-- sparkup example
-- par comment
+
+Reverse this string with "rev".
+
+Sort these numbers.
+
+      2
+      6
+      4
+      8
+      9
+      6
+      2
+      1
+      2
+      7
+      2
+      3
+      8
+      9
+
+Create a skeleton html document with a table using sparkup.
+
+Reformat this comment using "par".
+
+      /**
+       *
+       * Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eu semper mauris. Maecenas enim urna, imperdiet ut accumsan et, tempus sit amet nunc.  Aliquam vitae arcu in elit blandit elementum. Ut tempus purus at est euismod varius. Phasellus porta nibh at leo convallis hendrerit. Nunc commodo tellus a urna ultricies dapibus. Maecenas a quam risus. Fusce ut
+       *
+       */
+
 
 Create link for a google search for every *unique* word in this sentence.
 
@@ -345,10 +383,22 @@ Create link for a google search for every *unique* word in this sentence.
 
       The short man and the tall man drank long islands on long islands for a long time a long time ago.
 
-- tidy xml, then convert to yaml
-- sum these vertical numbers with bc
-- find number of unique words in a paragraph
-- create script to drop all nnps* tables
+Make this xml readable.  Make the tags lowercase.
+
+      <?xml version="1.0" encoding="ISO-8859-1"?> <!-- Edited by XMLSpy® --> <CATALOG> <CD> <TITLE>Empire Burlesque</TITLE> <ARTIST>Bob Dylan</ARTIST> <COUNTRY>USA</COUNTRY> <COMPANY>Columbia</COMPANY> <PRICE>10.90</PRICE> <YEAR>1985</YEAR> </CD> <CD> <TITLE>Hide your heart</TITLE> <ARTIST>Bonnie Tyler</ARTIST> <COUNTRY>UK</COUNTRY> <COMPANY>CBS Records</COMPANY> <PRICE>9.90</PRICE> <YEAR>1988</YEAR> </CD> <CD> <TITLE>Greatest Hits</TITLE> <ARTIST>Dolly Parton</ARTIST> <COUNTRY>USA</COUNTRY> <COMPANY>RCA</COMPANY> <PRICE>9.90</PRICE> <YEAR>1982</YEAR> </CD> <CD> <TITLE>Still got the blues</TITLE> <ARTIST>Gary Moore</ARTIST> <COUNTRY>UK</COUNTRY> <COMPANY>Virgin records</COMPANY> <PRICE>10.20</PRICE> <YEAR>1990</YEAR> </CD> </CATALOG>
+
+Sum these numbers with bc.
+
+      1
+      8
+      98
+      189
+      82
+      91
+      98701
+
+Create a shell script to drop all tables from the nepo database starting with "nnps".
+
 - grab all ftl files with the string "clipboard"
 - modify a pipe (echo a ls)
 
