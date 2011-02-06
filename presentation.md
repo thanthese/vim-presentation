@@ -1,7 +1,7 @@
 # Vim Lunch and Learn
 
 - Presenter: Stephen Mann
-- presentation available on github: https://github.com/thanthese/vim-presentation
+- Presentation available on Github: http://github.com/thanthese/vim-presentation
 
 ![xkcd comic](http://imgs.xkcd.com/comics/real_programmers.png)
 
@@ -29,6 +29,7 @@
 - editing files over network protocols such as SSH, FTP, and HTTP
 
 # More improvements of vim over vi
+
 - session state preservation
 - spell checking
 - split windows (horizontal and vertical)

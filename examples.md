@@ -1,4 +1,5 @@
 # front matter
+
 - resize font with :set guifont=*
 
 # modal
@@ -79,6 +80,7 @@ Refactor "equivalent" out into bool foo.
       if (!entry.used && equivalent(entry.key(), qk.key) && (curcontext & entry.contexts))
 
 ## text objects
+
 Delete the text "that is given" in quotes.
 
 Delete the (text between) the parens.
@@ -227,20 +229,109 @@ Make this URL readable.
       http://test.ourSite.com/subdivision?foo=bar&bar=foo&up=down&on=off&something=weird&2=1&lat=90&lon=90&start=end&day=night
 
 ## other vi commands/features
-- use multiple clipboards
-- multiply these numbers with python
-- undo tree
-- show completion of a word
-- divide a window up into many pieces
-- fold text
-- upper/lower case char/line/paragraph
-- turn on and use spelling: z=, 1z=
+
+Copy lines 1 and 3 down in reverse order
+
+      1. This is the first line.
+      2. I am unlike the others.
+      3. This is the third line.
+
+Show the product of these numbers using python: 2 * 3 * 4 * 5
+
+Demonstrate the undo tree.  (Don't foget to exit insert mode between lines.)
+
+Use completion to complete this example.
+
+      var thisIsAReallyLongVariableName = 42;
+      var thisIsAnotherReallyLongVariableName = 144;
+
+      var sumOfAbove =
+
+Split this window horizontally and vertically several times.
+
+Hide the bad text using folding.
+
+      This is good text.
+      This text is a pure as the freshly fallen snow.
+      -- begin the bad
+      DEMON SPAWN!
+      VERY BAD!
+      MAKES CHILDREN AND PUPPIES CRY!
+      This text is okay.
+      Not that bad.
+
+Make the word "lower" uppercase with "~".
+
+Make the word "lower" uppercase in a faster way.
+
+Make this entire line uppercase.
+
+Make this entire line rot13.
+
+Fix the speling mistaks in this sentenze.
 
 ## g commands
-- remove all printlns from a file; remove blank lines
-- move all lines with END to end of file
-- join all children to parents
-- substitute foos only if they're in comments
+
+Remove the printlns, then remove the blank lines.
+
+      public void doesNothing() {
+        System.out.println("This is a debugging line.");
+
+        int theAnswer = 42;
+
+        System.out.println("This is a debugging line.");
+        int wrong = 43;
+
+        System.out.println("This is a debugging line.");
+      }
+
+      public boolean doesMore(int something) {
+        System.out.println("This is a debugging line.");
+
+        if( something == 42 ) {
+          System.out.println("Matched");
+
+          someGlobal = 100;
+          return true;
+        }
+
+        System.out.println("This is a debugging line.");
+        return something == 100;
+      }
+
+Move all lines with END to below the paragraph.  Maintain order.
+
+      Lorem ipsum dolor END sit amet, consectetur adipiscing elit. Proin eu semper
+      mauris. Maecenas enim urna, imperdiet ut accumsan et, tempus sit amet
+      nunc.  Aliquam vitae arcu in elit blandit elementum. Ut tempus purus at
+      est euismod varius. Phasellus END porta nibh at leo convallis hendrerit. Nunc
+      commodo tellus a urna ultricies dapibus. Maecenas a quam risus. Fusce ut
+      augue at mi bibendum END scelerisque. In ( 42 ) in adipiscing libero.
+      Suspendisse ullamcorper, END arcu non porta feugiat, nisl est fringilla orci,
+      id mattis ipsum enim at ipsum. Etiam dignissim volutpat gravida. Etiam
+      condimentum blandit END felis et molestie.  Aliquam erat volutpat.
+
+Join all children to parents.
+
+      parent
+      child
+
+      parent
+      child
+      child
+
+      parent
+      child
+      child
+      child
+
+      parent
+
+      parent
+      child
+      child
+
+Substitute "foo"s for "bar"s only if they're in comments.
 
 # interaction with unix tools
 - reverse string
