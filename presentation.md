@@ -158,3 +158,9 @@ On to the examples!
 # A closing kata
 
 [Kata screencast](http://vimeo.com/8569257)
+
+# Helpful links
+
+... ... ...
+
+my gmail: thanthese@gmail.com
