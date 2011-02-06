@@ -8,6 +8,12 @@
 
 # Presentation outline
 
+- What is vi/vim?
+- Why learn it?
+- Dispel some myths
+- How is it awesome?
+- Examples
+
 # What is Vi/Vim?
 
 A text navigation and manipulation program (espcially suited for programmers).
