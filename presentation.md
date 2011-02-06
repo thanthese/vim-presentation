@@ -3,7 +3,7 @@
 - Presenter: Stephen Mann
 - presentation available on github: https://github.com/thanthese/vim-presentation
 
-![xkcd comic](http://xkcd.com/378/)
+![xkcd comic](http://imgs.xkcd.com/comics/real_programmers.png)
 
 # Presentation outline
 
