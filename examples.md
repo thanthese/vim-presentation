@@ -24,7 +24,7 @@ Move-by-word to-the-end-of this-line, then-back-again.
 
 Move to F, then back, then to B.  Then back to F.  Then to this B.
 
-Delete this letter "".
+Delete this letter "a".
 
 Delete this entire line.
 
