@@ -1,10 +1,10 @@
 % Vim Lunch and Learn
 % Presenter: Stephen Mann
-% Presentation available on Github at `http://github.com/thanthese/vim-presentation`
+% Presentation available at http://github.com/thanthese/vim-presentation
 
 # A little xkcd
 
-![xkcd comic](http://imgs.xkcd.com/comics/real_programmers.png)
+![http://xkcd.com/378/](http://imgs.xkcd.com/comics/real_programmers.png)
 
 # Presentation outline
 
@@ -57,7 +57,7 @@ A text navigation and manipulation program (espcially suited for programmers).
 
 - To nagivate and manipulate text quickly (80% of what we do)
 - To take control of your editor (with scripting)
-- To have a light-weight alternative to netbeans
+- To have a light-weight alternative a bloated IDE
 - To learn a ubiquitous editor
 - To master your tools
 - Cool factor
@@ -87,51 +87,36 @@ A text navigation and manipulation program (espcially suited for programmers).
 
 # But nobody uses it anymore
 
-Hacker News (previous month activity)
+There is an active community.
 
-- [Every emacs and vi user here just went down your ...](news.ycombinator.com/item?id=2154405)
-- [Vim Recipes](news.ycombinator.com/item?id=2080342)
-- [TextWrangler/BBEdit: GEdit, Emacs, Vim](news.ycombinator.com/item?id=2148789)
-- [Vim as a python IDE : some neat plugins and TIPS](news.ycombinator.com/item?id=2130688)
-
-#
-
-- [One with Vim](news.ycombinator.com/item?id=2148742)
-- [I just ran across the following, today: Vim offers ...](news.ycombinator.com/item?id=2081482)
-- [True. People often underestimate the ...](news.ycombinator.com/item?id=2081113)
-- ['jkl;' for the win! 'hjkl' always seemed awkward and ...](news.ycombinator.net/item?id=2055369)
+- 3400+ scripts on `vim.org/scripts`, with new additions daily
+- several vi-related posts on [Hacker News](news.ycombinator.com) each week
+- hundred of vi/vim/gvim/vimrc questions on [StackOverFlow](http://stackoverflow.com/questions/tagged/vim)
+- new books
 
 #
 
-Blog posts (previous month activity)
+Books > 2007 AD
 
-- [Daily Vim: Text Editor Tips, Tricks, Tutorials, and HOWTOs](dailyvim.blogspot.com/)
-- [Derek Wyatt's Blog - Vim, OO Design and Piles of Uselessness](www.derekwyatt.org/)
-- [self improvement - Vim: How do I improve my typing skills to learn ...](http://superuser.com/questions - More results from Recent Questions - Super User)
-- [Determining if Vim is running in text-console mode or X Windows](http://www.listware.net/ - More results from vim-use archive)
-
-#
-
-- [One with Vim – Invisible Theory](http://invisibletheory.com/ - References)
-- [Tech at Night: Net Neutrality, FCC, Republicans charge ahead ...](http://www.redstate.com/)
-- [Ovid at blogs.perl.org: Show Perl subname in vim statusline](http://planet.perl.org/)
-- [VIM ctags for Qt Development on OSX - cellcortex](http://www.cellcortex.com/)
+![Hacking vim](http://ecx.images-amazon.com/images/I/41Snt3R6aIL._BO2,204,203,200_PIsitb-sticker-arrow-click,TopRight,35,-76_AA300_SH20_OU01_.jpg)
+![Hacking vim 7.2](http://ecx.images-amazon.com/images/I/51lbsFGaSlL._BO2,204,203,200_PIsitb-sticker-arrow-click,TopRight,35,-76_AA300_SH20_OU01_.jpg)
+![Vi and Vim](http://ecx.images-amazon.com/images/I/419Sm4ZRZ5L._BO2,204,203,200_PIsitb-sticker-arrow-click,TopRight,35,-76_AA300_SH20_OU01_.jpg)
 
 # But it's hard to learn
 
-Not so
+Not so.
 
 - Different, not hard
 - Learn it incrementally
 - Learn a plugin in your current editor
 
-# Tips
+# Tips for Learning
 
-- Remap caps lock to escape (or use alternate escapes)
+- Remap `caps lock` to `escape` (or use alternate escapes)
 - Use the old terminology, e.g. put/yank
 - Don't use mouse or arrows (use hjkl)
 - Give it a week
-- :h :w :q :wq :wq!
+- `:h :w :q :wq :wq!`
 
 # What makes vim so great?
 
@@ -153,7 +138,7 @@ Keyboard behaves differently in different modes.
 
 ![Gamepad!](http://www.viemu.com/vi-vim-cheat-sheet.gif "Gamepad!")
 
-# Commonly used modes
+# How to use the modes
 
 - Normal (90% of time)
 - Insert (toxic, don't stay)
