@@ -1,7 +1,9 @@
 # Vim Lunch and Learn
 
 - Presenter: Stephen Mann
-- xkcd comic: http://xkcd.com/378/
+- presentation available on github: https://github.com/thanthese/vim-presentation
+
+![xkcd comic](http://xkcd.com/378/)
 
 # Presentation outline
 
@@ -25,6 +27,8 @@
 - folding
 - editing of compressed files in gzip, bzip2, zip, and tar format
 - editing files over network protocols such as SSH, FTP, and HTTP
+
+# More improvements of vim over vi
 - session state preservation
 - spell checking
 - split windows (horizontal and vertical)
@@ -54,30 +58,30 @@
 
 # Plugins or bindings are available
 
-- NetBeans (http://jvi.sourceforge.net/)
-- Eclipse (http://vrapper.sourceforge.net/home/)
+- NetBeans ([jvi](http://jvi.sourceforge.net/))
+- Eclipse ([vrapper](http://vrapper.sourceforge.net/home/))
 - VisualStudio
-- word
-- gmail
 - bash
-- firefox (vimerper, pedtyle)
+- firefox ([vimerper](http://vimperator.org/vimperator), [pentadactyl](http://dactyl.sourceforge.net/pentadactyl/index))
+- gmail
+- word
 - lynx
 - less
 
 # But nobody uses it anymore
 
-# Hacker News
+# Hacker News (previous month activity)
 
 - [Every emacs and vi user here just went down your ...](news.ycombinator.com/item?id=2154405)
 - [Vim Recipes](news.ycombinator.com/item?id=2080342)
-- [" * TextWrangler/BBEdit: GEdit, Emacs, Vim"Yes, but ...](news.ycombinator.com/item?id=2148789)
+- [TextWrangler/BBEdit: GEdit, Emacs, Vim](news.ycombinator.com/item?id=2148789)
 - [Vim as a python IDE : some neat plugins and TIPS](news.ycombinator.com/item?id=2130688)
 - [One with Vim](news.ycombinator.com/item?id=2148742)
-- [I just ran across the following, today:Vim offers ...](news.ycombinator.com/item?id=2081482)
+- [I just ran across the following, today: Vim offers ...](news.ycombinator.com/item?id=2081482)
 - [True. People often underestimate the ...](news.ycombinator.com/item?id=2081113)
 - ['jkl;' for the win! 'hjkl' always seemed awkward and ...](news.ycombinator.net/item?id=2055369)
 
-# Blog posts
+# Blog posts (previous month activity)
 
 - [Daily Vim: Text Editor Tips, Tricks, Tutorials, and HOWTOs](dailyvim.blogspot.com/)
 - [Derek Wyatt's Blog - Vim, OO Design and Piles of Uselessness](www.derekwyatt.org/)
