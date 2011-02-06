@@ -1,11 +1,12 @@
-# presentation outline
-Vim Lunch and Learn
+# Vim Lunch and Learn
+
 - Presenter: Stephen Mann
 - xkcd comic: http://xkcd.com/378/
 
-Presentation outline
+# Presentation outline
 
-What is Vi/Vim?
+# What is Vi/Vim?
+
 - vi created in 1976 by Bill Joy
 - vim created in 1991 by Bram Moolenaar
 - qed -> ed -> ex -> vim
@@ -13,7 +14,7 @@ What is Vi/Vim?
   - (ed -> grep)
 - a text navigation and manipulation program (espcially suited for programmers)
 
-Improvements of vim over vi
+# Improvements of vim over vi
 
 - completion
 - diff
@@ -34,7 +35,7 @@ Improvements of vim over vi
 - multiple level undo/redo history
 - and visual mode
 
-Why should you learn vim?
+# Why should you learn vim?
 
 - to nagivate and manipulate text quickly (80% of what we do)
 - to take control of your editor (with scripting)
@@ -44,14 +45,15 @@ Why should you learn vim?
 - cool factor
 - fun (like playing a video game)
 
-Who should not use vim?
+# Who should not use vim?
 
 - if you don't work with text
 - learn to touch type first
 
-But I heart NetBeans/Eclipse/Visual Studio
+# But I heart NetBeans/Eclipse/Visual Studio
 
-Plugins or bindings are available
+# Plugins or bindings are available
+
 - NetBeans (http://jvi.sourceforge.net/)
 - Eclipse (http://vrapper.sourceforge.net/home/)
 - VisualStudio
@@ -62,9 +64,10 @@ Plugins or bindings are available
 - lynx
 - less
 
-But nobody uses it anymore
+# But nobody uses it anymore
 
-Hacker News
+# Hacker News
+
 - [Every emacs and vi user here just went down your ...](news.ycombinator.com/item?id=2154405)
 - [Vim Recipes](news.ycombinator.com/item?id=2080342)
 - [" * TextWrangler/BBEdit: GEdit, Emacs, Vim"Yes, but ...](news.ycombinator.com/item?id=2148789)
@@ -74,7 +77,8 @@ Hacker News
 - [True. People often underestimate the ...](news.ycombinator.com/item?id=2081113)
 - ['jkl;' for the win! 'hjkl' always seemed awkward and ...](news.ycombinator.net/item?id=2055369)
 
-Blog posts
+# Blog posts
+
 - [Daily Vim: Text Editor Tips, Tricks, Tutorials, and HOWTOs](dailyvim.blogspot.com/)
 - [Derek Wyatt's Blog - Vim, OO Design and Piles of Uselessness](www.derekwyatt.org/)
 - [self improvement - Vim: How do I improve my typing skills to learn ...](http://superuser.com/questions - More results from Recent Questions - Super User)
@@ -86,45 +90,52 @@ Blog posts
 - [Ovid at blogs.perl.org: Show Perl subname in vim statusline](http://planet.perl.org/)
 - [VIM ctags for Qt Development on OSX - cellcortex](http://www.cellcortex.com/)
 
-But it's hard to learn
+# But it's hard to learn
 
-Not so
+# Not so
+
 - different, not hard
 - learn it incrementally
 - learn a plugin in your current editor
 
-Tips
-- remap caps lock to escape (or ctrl and use C-[)
+# Tips
+
+- remap caps lock to escape (or use alternate escapes)
 - use the old terminology, e.g. put/yank
 - don't use mouse or arrows (use hjkl)
 - give it a week
 - :h
 - :w :q :wq :wq!
 
-What makes vim so great?
+# What makes vim so great?
+
 - modal
+
   - huge number of available commands
   - a grammar for text manipulation
   - your hands never leave homerow
+
 - interaction with unix tools
 - customization/scripting
 
-What does "modal" mean?
+# What does "modal" mean?
 
 - keyboard behaves differently
 - more buttons, no ctrl/alt/meta
 
-Huge gamepad
-http://www.viemu.com/vi-vim-cheat-sheet.gif
+# Huge gamepad
 
-Modes
+![Gamepad!](http://www.viemu.com/vi-vim-cheat-sheet.gif "Gamepad!")
+
+# Modes
+
 - normal (90% of time)
 - insert (toxic, don't stay)
 - visual
 - command
 
-Examples!
+# Examples!
 
-Kata
+# Kata
 
 - [kata screencast](http://vimeo.com/8569257)
