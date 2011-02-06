@@ -16,13 +16,13 @@
 
 # What is Vi/Vim?
 
-A text navigation and manipulation program (espcially suited for programmers).
+A text navigation and manipulation program (especially suited for programmers).
 
 # History
 
 - vi created in 1976 by Bill Joy
 - vim created in 1991 by Bram Moolenaar
-- qed -> ed -> ex -> vim
+- qed -> ed -> ex -> vi -> vim
 
   - ( ed -> sed -> perl -> *everywhere* )
   - ( ed -> grep )
@@ -79,7 +79,7 @@ A text navigation and manipulation program (espcially suited for programmers).
 
 #
 
-- Firefox ([vimerper](http://vimperator.org/vimperator), [pentadactyl](http://dactyl.sourceforge.net/pentadactyl/index))
+- Firefox ([vimperator](http://vimperator.org/vimperator), [pentadactyl](http://dactyl.sourceforge.net/pentadactyl/index))
 - Gmail
 - Word
 - Lynx
@@ -113,10 +113,10 @@ Not so.
 # Tips for Learning
 
 - Remap `caps lock` to `escape` (or use alternate escapes)
-- Use the old terminology, e.g. put/yank
+- Use the old terminology, e.g. yank/put
 - Don't use mouse or arrows (use hjkl)
 - Give it a week
-- `:h :w :q :wq :wq!`
+- `:h :w :q :wq :q!`
 
 # What makes vim so great?
 
@@ -139,6 +139,8 @@ Keyboard behaves differently in different modes.
 ![Gamepad!](http://www.viemu.com/vi-vim-cheat-sheet.gif "Gamepad!")
 
 # How to use the modes
+
+(Or, how do I not forget what mode I'm in?)
 
 - Normal (90% of time)
 - Insert (toxic, don't stay)

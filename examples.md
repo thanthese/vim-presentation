@@ -24,7 +24,7 @@ Move-by-word to-the-end-of this-line, then-back-again.
 
 Move to F, then back, then to B.  Then back to F.  Then to this B.
 
-Delete this letter "a".
+Delete this letter "".
 
 Delete this entire line.
 
@@ -203,7 +203,7 @@ Delete to the (w) second w in this sentence (using counts).
 
 Add .getFoo() as the second method in each chain.
 
-      int a = factory.getFoo().getObjects();
+      int a = factory.getBar().getObjects();
       boolean longerVariableName = starting.getListOfLists().first();
       string oneThing = ifItsNot().thanAnother();
       MyType contrivedExample = a().b().c().d().e();
@@ -302,15 +302,16 @@ Remove the printlns, then remove the blank lines.
 
 Move all lines with END to below the paragraph.  Maintain order.
 
-      Lorem ipsum dolor END sit amet, consectetur adipiscing elit. Proin eu semper
-      mauris. Maecenas enim urna, imperdiet ut accumsan et, tempus sit amet
-      nunc.  Aliquam vitae arcu in elit blandit elementum. Ut tempus purus at
-      est euismod varius. Phasellus END porta nibh at leo convallis hendrerit. Nunc
-      commodo tellus a urna ultricies dapibus. Maecenas a quam risus. Fusce ut
-      augue at mi bibendum END scelerisque. In ( 42 ) in adipiscing libero.
-      Suspendisse ullamcorper, END arcu non porta feugiat, nisl est fringilla orci,
-      id mattis ipsum enim at ipsum. Etiam dignissim volutpat gravida. Etiam
-      condimentum blandit END felis et molestie.  Aliquam erat volutpat.
+      Lorem ipsum dolor END sit amet, consectetur adipiscing elit. Proin eu
+      semper mauris. Maecenas enim urna, imperdiet ut accumsan et, tempus sit
+      amet nunc.  Aliquam vitae arcu in elit blandit elementum. Ut tempus purus
+      at est euismod varius. Phasellus END porta nibh at leo convallis
+      hendrerit. Nunc commodo tellus a urna ultricies dapibus. Maecenas a quam
+      risus. Fusce ut augue at mi bibendum END scelerisque. In in adipiscing
+      libero.  Suspendisse ullamcorper, END arcu non porta feugiat, nisl est
+      fringilla orci, id mattis ipsum enim at ipsum. Etiam dignissim volutpat
+      gravida. Etiam condimentum blandit END felis et molestie.  Aliquam erat
+      volutpat.
 
 Join all children to parents.
 
