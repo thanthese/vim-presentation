@@ -399,16 +399,30 @@ Sum these numbers with bc.
 
 Create a shell script to drop all tables from the nepo database starting with "nnps".
 
-- grab all ftl files with the string "clipboard"
-- modify a pipe (echo a ls)
+Modify a pipe (echo a ls).
 
 # customization/plugins
-- rst table formatter
-- show my .vimrc
-- export markdown to html/pdf
-- surround plugin
-- NERDTree
-- bufexplore
-- python REPL by using screen -- broken sum problem
-- my outliner
-- my typing tutor
+
+Customization: take a quick tour of my main .vimrc
+
+Surround plugin;
+
+      Surround bar with "".
+      Surround bar with ().
+      Surround bar with divs, then change those divs to spans.
+
+Open NerdTree.
+
+Open bufexplore.
+
+Format this table nicely
+
+      ... would that there were a table here ...
+
+Export this file to html.
+
+Python REPL with screen.  Demonstrate a (initially broken) sum function.
+
+Open my outliner.
+
+Open my typing tutor.
