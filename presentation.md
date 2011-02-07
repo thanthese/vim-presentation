@@ -163,6 +163,10 @@ On to the examples!
 - ["Vim Recipes"](http://vim.runpaint.org/), a free cookbook
 - Me! [stephen.mann@geocent.com](mailto:stephen.mann@geocent.com), gtalk id = thanthese
 
+# Fun fact
+
+This presentation was created entirely in vim.
+
 # A closing kata
 
 [Kata screencast](http://vimeo.com/8569257)
