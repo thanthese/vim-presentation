@@ -85,6 +85,12 @@ A text navigation and manipulation program (especially suited for programmers).
 - Lynx
 - Less
 
+#
+
+Advice, with apologies to Einstein:
+
+"Use vim as often as possible, but no more often."
+
 # But nobody uses it anymore
 
 There is an active community.
