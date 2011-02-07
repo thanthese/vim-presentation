@@ -4,7 +4,7 @@
 
 # modal
 
-## motion commands
+## motions
 
 Move around with hjkl (aka, no arrows or mouse).
 
@@ -23,6 +23,8 @@ Move-by-word to-the-end-of this-line, then-back-again.
       Move to the end of this line, then back again.
 
 Move to F, then back, then to B.  Then back to F.  Then to this B.
+
+## commands
 
 Delete this letter "a".
 

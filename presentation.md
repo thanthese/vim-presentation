@@ -140,7 +140,7 @@ Keyboard behaves differently in different modes.
 
 # How to use the modes
 
-(Or, how do I not forget what mode I'm in?)
+(Or, "How to not forget which mode you're in.")
 
 - Normal (90% of time)
 - Insert (toxic, don't stay)
@@ -155,12 +155,14 @@ On to the examples!
 2. Interaction with unix tools
 3. Customization/scripting
 
+# Helpful resources
+
+- Vimtutor (built right in)
+- [Graphical cheatsheet](http://www.viemu.com/vi-vim-cheat-sheet.gif)
+- ["Why, oh WHY, do those #?@! nutheads use vi?"](http://www.viemu.com/a-why-vi-vim.html)
+- ["Vim Recipes"](http://vim.runpaint.org/), a free cookbook
+- Me! [stephen.mann@geocent.com](mailto:stephen.mann@geocent.com), gtalk id = thanthese
+
 # A closing kata
 
 [Kata screencast](http://vimeo.com/8569257)
-
-# Helpful links
-
-... ... ...
-
-my gmail: thanthese@gmail.com
