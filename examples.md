@@ -403,7 +403,7 @@ Sum these numbers with bc.
 
 Create a shell script to drop all tables from the nepo database starting with "nnps".
 
-Modify a pipe (echo a ls).
+Edit a pipe.
 
 # customization/plugins
 
