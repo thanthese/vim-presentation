@@ -116,6 +116,7 @@ Not so.
 - Use the old terminology, e.g. yank/put
 - Don't use mouse or arrows (use hjkl)
 - Give it a week
+- Use dropbox!
 - `:h :w :q :wq :q!`
 
 # What makes vim so great?
