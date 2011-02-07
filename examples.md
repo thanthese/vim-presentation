@@ -421,7 +421,10 @@ Open bufexplore.
 
 Format this table nicely
 
-      ... would that there were a table here ...
+      Shirt color  danger level  number of kills  comments
+      blue  medium  8  medical uniform
+      red  high  100+  avoid at all costs
+      mustard  low  0  recommended color
 
 Export this file to html.
 
