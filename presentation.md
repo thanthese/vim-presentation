@@ -75,7 +75,7 @@ A text navigation and manipulation program (especially suited for programmers).
 - NetBeans ([jvi](http://jvi.sourceforge.net/))
 - Eclipse ([vrapper](http://vrapper.sourceforge.net/home/))
 - VisualStudio
-- Bash
+- Bash (put `set -o vi` in .bashrc)
 
 #
 
@@ -161,6 +161,7 @@ On to the examples!
 - [Graphical cheatsheet](http://www.viemu.com/vi-vim-cheat-sheet.gif)
 - ["Why, oh WHY, do those #?@! nutheads use vi?"](http://www.viemu.com/a-why-vi-vim.html)
 - ["Vim Recipes"](http://vim.runpaint.org/), a free cookbook
+- ["Coming home to Vim"](http://stevelosh.com/blog/2010/09/coming-home-to-vim/), a more extensive introduction
 - Me! [stephen.mann@geocent.com](mailto:stephen.mann@geocent.com), gtalk id = thanthese
 
 # Fun fact
