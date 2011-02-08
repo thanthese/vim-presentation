@@ -121,9 +121,9 @@ Not so.
 - Remap `caps lock` to `escape` (or use alternate escapes)
 - Swap your `ctrl` and `alt` keys
 - Use the old terminology, e.g. yank/put
-- Don't use mouse or arrows (use hjkl)
+- Don't use mouse or arrows (use `hjkl`)
 - Give it a week
-- Use dropbox!
+- Use dropbox!  Use github!
 - `:h :w :q :wq :q!`
 
 # What makes vim so great?
