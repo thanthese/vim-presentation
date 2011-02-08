@@ -231,6 +231,10 @@ Make this URL readable.
 
       http://test.ourSite.com/subdivision?foo=bar&bar=foo&up=down&on=off&something=weird&2=1&lat=90&lon=90&start=end&day=night
 
+Make words with a an "o" all uppercase.
+
+      The quick brown fox jumped over the lazy red dog.
+
 ## other vi commands/features
 
 Copy lines 1 and 3 down in reverse order using multiple clipboards
@@ -272,6 +276,8 @@ Make this entire line uppercase.
 Make this entire line rot13.
 
 Fix the speling mistaks in this sentenze.
+
+Demonstrate the q: command.
 
 ## g commands
 
